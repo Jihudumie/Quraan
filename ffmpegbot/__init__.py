@@ -33,45 +33,25 @@ AUTH_USERS = list(set(AUTH_USERS))
 EVAL_CMD_TRIGGER = Config.EVAL_CMD_TRIGGER
 EXEC_CMD_TRIGGER = Config.EXEC_CMD_TRIGGER
 
-MWANZO = """<b><u>Qur'ani Tukufu.</u></b>
-Ni Bot (Robot) Ya Quruan
-
-<b>JINSI YA KUITUMIA</b>
-
-Kusoma 📖  Qur'an  Na Kusikiliza 🎧 Audio kwa Lugha ya Kiswahili gusa hapo
-👇
-/quraan
-
-Kusoma 📖 JUZUU gusa hapo
-👇
-/juzuu
-/juzuu15
-Ku Download ⬇️  Audio za Wasomaji Mbali Mbali Gusa hapo
-👇
-/mp3
-
-
-Kwa Elimu 📚 Zaidi Fungua link (Bot) hii
-👇
-https://t.me/Hamisbot
-
-Au hii👇
-https://telegra.ph/I-LOVE-ISLAM-04-21
-"""
+HELP_STICKER = "https://telegra.ph/I-LOVE-ISLAM-04-21"
+PROCESS_RUNNING = "processing ..."
 MSAADA_TXT = "@ViongoziBot"
 UI = "[000-Utangulizi](https://telegra.ph/%D8%A8%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85-12-24)"
-JM = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-1-na-2/"
-JP = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-3-na-4/"
-JT = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-5-na-6/"
-JN = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-7-na-8/"
-JO = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-9-na-10/"
-JS = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/"
-JB = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-13-na-14/"
-JE = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-15-na-16/"
-JTS = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/"
-JST = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-17-na-18/"
-JKM = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-19-na-20/"
-JKMN = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-11-na-12/"
-JKT = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-21-na-22/"
-JKN = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-23-na-24/"
-JKNT = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-25-na-26/"
+JM = "[Juzuu ya 01 na 02](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-1-na-2/)"
+JP = "[Juzuu ya 03 na 04](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-3-na-4/)"
+JT = "[Juzuu ya 05 na 06](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-5-na-6/)"
+JN = "[Juzuu ya 07 na 08](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-7-na-8/)"
+JO = "[Juzuu ya 09 na 10](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-9-na-10/)"
+JS = "[Juzuu ya 11 na 12](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-11-na-12/)"
+JB = "[Juzuu ya 13 na 14](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-13-na-14/)"
+JE = "[Juzuu ya 15 na 16](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-15-na-16/)"
+JTS = "[Juzuu ya 17 na 18](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-17-na-18/)"
+JST = "[Juzuu ya 19 na 20](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-19-na-20/)"
+JKM = "[Juzuu ya 21 na 22](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-21-na-22/)"
+JKMN = "[Juzuu ya 23 na 24](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-23-na-24/)"
+JKT = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-25-na-26/)"
+JKN = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
+JKNT = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
+JUZUU = """ /Utangulizi
+/01  /02  /03  /04  /05  /06  /07  /08  /09  /10  /11  /12  /13  /14  /15  
+"""
