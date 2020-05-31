@@ -1,5 +1,5 @@
 {
-  "name": "Matendo",
+  "name": "Qur'an Tukufu",
   "description": "A FFMpeg Wrapper inside @Telegram",
   "keywords": [
     "telegram",
@@ -22,7 +22,7 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "1062407"
+      "value": "592800547"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
@@ -36,19 +36,7 @@
       "description": "You can create a bot using @BotFather",
       "value": "1041455290 -1001243018219"
     },
-    "TG_UPDATE_WORKERS_COUNT": {
-      "description": "Number of workers to use. `1` is the recommended amount see for yourself what works best!",
-      "required": false
-    },
-    "EVAL_CMD_TRIGGER": {
-      "description": "EVAL command trigger",
-      "required": false
-    },
-    "EXEC_CMD_TRIGGER": {
-      "description": "EXEC command trigger",
-      "required": false
-    }
-  },
+
   "addons": [],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
