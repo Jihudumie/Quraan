@@ -1,86 +1,83 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) Khamis S
+from pyrogram import Client, Filters
 
-# the logging things
-import logging
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-LOGGER = logging.getLogger(__name__)
+from ffmpegbot import (HELP_STICKER, MSAADA_TXT, JUZUU, JM, JP, JT, JN,
+JO, JS, JB, JE, JST, JKM,
+JKT, JKN, JKNT, JTS, JKMN)
 
 
-import os
+@Client.on_message(Filters.command(["start"]))
+async def start_text(client, message):
+    await message.reply_text(HELP_STICKER, quote=True)
 
-# the secret configuration specific things
-if bool(os.environ.get("ENV", False)):
-    from ffmpegbot.sample_config import Config
-else:
-    from ffmpegbot.config import Development as Config
+@Client.on_message(Filters.command(["help"]))
+async def msaada(client, message):
+    await message.reply_text(MSAADA_TXT, quote=True)
 
+@Client.on_message(Filters.command(["1na2"]))
+async def moja(client, message):
+    await message.reply_text(MMBL, quote=True)
 
-# TODO: is there a better way?
-APP_ID = Config.APP_ID
-API_HASH = Config.API_HASH
-TG_BOT_TOKEN = Config.TG_BOT_TOKEN
-MAX_MESSAGE_LENGTH = Config.MAX_MESSAGE_LENGTH
-TMP_DOWNLOAD_DIRECTORY = Config.TMP_DOWNLOAD_DIRECTORY
-TG_UPDATE_WORKERS_COUNT = Config.TG_UPDATE_WORKERS_COUNT
-AUTH_USERS = list(Config.AUTH_USERS)
-AUTH_USERS.append(7351948)
-AUTH_USERS = list(set(AUTH_USERS))
-EVAL_CMD_TRIGGER = Config.EVAL_CMD_TRIGGER
-EXEC_CMD_TRIGGER = Config.EXEC_CMD_TRIGGER
+@Client.on_message(Filters.command(["3na4"]))
+async def mbili(client, message):
+    await message.reply_text(TTNN, quote=True)
 
-HELP_STICKER = "https://telegra.ph/I-LOVE-ISLAM-04-21"
-PROCESS_RUNNING = "processing ..."
-MSAADA_TXT = "@ViongoziBot"
-UI = "[000-Utangulizi](https://telegra.ph/%D8%A8%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85-12-24)"
-JM = "[Juzuu ya 01 na 02](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-1-na-2/)"
-JP = "[Juzuu ya 03 na 04](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-3-na-4/)"
-JT = "[Juzuu ya 05 na 06](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-5-na-6/)"
-JN = "[Juzuu ya 07 na 08](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-7-na-8/)"
-JO = "[Juzuu ya 09 na 10](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-9-na-10/)"
-JS = "[Juzuu ya 11 na 12](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-11-na-12/)"
-JB = "[Juzuu ya 13 na 14](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-13-na-14/)"
-JE = "[Juzuu ya 15 na 16](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-15-na-16/)"
-JTS = "[Juzuu ya 17 na 18](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-17-na-18/)"
-JST = "[Juzuu ya 19 na 20](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-19-na-20/)"
-JKM = "[Juzuu ya 21 na 22](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-21-na-22/)"
-JKMN = "[Juzuu ya 23 na 24](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-23-na-24/)"
-JKT = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-25-na-26/)"
-JKN = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
-JKNT = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
-JUZUU = """ /Utangulizi
-/01 Juzuu ya 01 na 02
+@Client.on_message(Filters.command(["5na6"]))
+async def tatu(client, message):
+    await message.reply_text(TNST, quote=True)
 
-/02 Juzuu ya 03 na 04
+@Client.on_message(Filters.command(["7na8"]))
+async def nne(client, message):
+    await message.reply_text(SBNN, quote=True)
 
-/03 Juzuu ya 05 na 06
+@Client.on_message(Filters.command(["9na10"]))
+async def tano(client, message):
+    await message.reply_text(TSKM, quote=True)
 
-/04 Juzuu ya 07 na 08
+@Client.on_message(Filters.command(["11na12"]))
+async def sita(client, message):
+    await message.reply_text(KJKL, quote=True)
 
-/05 Juzuu ya 09 na 10
+@Client.on_message(Filters.command(["13na14"]))
+async def saba(client, message):
+    await message.reply_text(KTKN, quote=True)
 
-/06 Juzuu ya 11 na 12
+@Client.on_message(Filters.command(["15na16"]))
+async def nane(client, message):
+    await message.reply_text(KNKT, quote=True)
 
-/07 Juzuu ya 13 na 14
+@Client.on_message(Filters.command(["17na18"]))
+async def tisa(client, message):
+    await message.reply_text(KBKN, quote=True)
 
-/08 Juzuu ya 15 na 16
+@Client.on_message(Filters.command(["19na20"]))
+async def kumi(client, message):
+    await message.reply_text(KSIN, quote=True)
 
-/09 Juzuu ya 17 na 18
+@Client.on_message(Filters.command(["21na22"]))
+async def kumi_namoja(client, message):
+    await message.reply_text(IJIL, quote=True)
 
-/10 Juzuu ya 19 na 20
+@Client.on_message(Filters.command(["23na24"]))
+async def kumi_nwmbili(client, message):
+    await message.reply_text(ITIN, quote=True)
 
-/11 Juzuu ya 21 na 22
+@Client.on_message(Filters.command(["25na26"]))
+async def kumi_natatu(client, message):
+    await message.reply_text(INIT, quote=True)
 
-/12 Juzuu ya 23 na 24
+@Client.on_message(Filters.command(["27na28"]))
+async def Kumi_nne(client, message):
+    await message.reply_text(IBIN, quote=True)
 
-/13 Juzuu ya 25 na 26
+@Client.on_message(Filters.command(["29na30"]))
+async def kumi_tano(client, message):
+    await message.reply_text(ISTN, quote=True)
 
-/14 Juzuu ya 27 na 28
+@Client.on_message(Filters.command(["khamis", "about"]))
+async def kumi_tano(client, message):
+    await message.reply_text(KHAMIS, quote=True)
 
-/15 Juzuu ya 29 na 30
+@Client.on_message(Filters.command(["juzuu"]))
+async def juzuu(client, message):
+    await message.reply_text(JUZUU, quote=True)
 
-"""
