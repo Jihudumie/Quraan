@@ -82,6 +82,5 @@ JUZUU = """
 /14 Juzuu ya 27 na 28
 
 /15 Juzuu ya 29 na 30
-
 """
 KHAMIS = "Khamis Seleleko"
