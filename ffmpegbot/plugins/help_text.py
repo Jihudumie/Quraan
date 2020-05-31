@@ -49,6 +49,10 @@ async def nane(client, message):
 async def tisa(client, message):
     await message.reply_text(JTS, quote=True)
 
+@Client.on_message(Filters.command(["09"]))
+async def tisa(client, message):
+    await message.reply_text(JST, quote=True)
+
 @Client.on_message(Filters.command(["19na20"]))
 async def kumi(client, message):
     await message.reply_text(JKM, quote=True)
