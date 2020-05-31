@@ -52,8 +52,7 @@ KMBILI = "[Juzuu ya 23 na 24](https://alsidqblog.wordpress.com/tafsiri-ya-quran-
 KTATU = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-25-na-26/)"
 KNNE = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
 KTANO = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
-JUZUU = """ /Utangulizi
-KHAMIS = "Khamis Seleleko"
+JUZUU = """
 /01 Juzuu ya 01 na 02
 
 /02 Juzuu ya 03 na 04
@@ -85,3 +84,4 @@ KHAMIS = "Khamis Seleleko"
 /15 Juzuu ya 29 na 30
 
 """
+KHAMIS = "Khamis Seleleko"
