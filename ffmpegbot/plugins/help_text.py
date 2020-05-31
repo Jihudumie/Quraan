@@ -1,13 +1,13 @@
 from pyrogram import Client, Filters
 
-from ffmpegbot import (HELP_STICKER, MSAADA_TXT, JM, JP, JT, JN,
+from ffmpegbot import (MWANZO, MSAADA_TXT, JM, JP, JT, JN,
 JO, JS, JB, JE, JST, JKM,
 JKT, JKN, JKNT, JTS, JKMN)
 
 
 @Client.on_message(Filters.command(["start"]))
 async def start_text(client, message):
-    await message.reply_text(HELP_STICKER, quote=True)
+    await message.reply_text(MWANZO, quote=True)
 
 @Client.on_message(Filters.command(["help"]))
 async def msaada(client, message):
