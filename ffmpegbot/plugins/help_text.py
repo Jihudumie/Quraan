@@ -1,13 +1,13 @@
 from pyrogram import Client, Filters
 
-from ffmpegbot import (MWANZO, MSAADA_TXT, JM, JP, JT, JN,
+from ffmpegbot import (HELP_STICKER, MSAADA_TXT, JUZUU, JM, JP, JT, JN,
 JO, JS, JB, JE, JST, JKM,
 JKT, JKN, JKNT, JTS, JKMN)
 
 
 @Client.on_message(Filters.command(["start"]))
 async def start_text(client, message):
-    await message.reply_text(MWANZO, quote=True)
+    await message.reply_text(HELP_STICKER, quote=True)
 
 @Client.on_message(Filters.command(["help"]))
 async def msaada(client, message):
@@ -72,3 +72,7 @@ async def Kumi_nne(client, message):
 @Client.on_message(Filters.command(["15"]))
 async def kumi_tano(client, message):
     await message.reply_text(JKNT, quote=True)
+
+@Client.on_message(Filters.command(["juzuu"]))
+async def juzuu(client, message):
+    await message.reply_text(JUZUU, quote=True)
