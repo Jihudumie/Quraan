@@ -35,6 +35,7 @@ EXEC_CMD_TRIGGER = Config.EXEC_CMD_TRIGGER
 
 HELP_STICKER = "https://telegra.ph/I-LOVE-ISLAM-04-21"
 PROCESS_RUNNING = "processing ..."
+MWANZO = "karibu Katika Kitabu cha Allah"
 MSAADA_TXT = "@ViongoziBot"
 UTANGULIZI = "[000-Utangulizi](https://telegra.ph/%D8%A8%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85-12-24)"
 MOJA = "[Juzuu ya 01 na 02](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-1-na-2/)"
