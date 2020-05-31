@@ -35,6 +35,18 @@
     "AUTH_USERS": {
       "description": "You can create a bot using @BotFather",
       "value": "1041455290 -1001243018219"
+    },
+    "TG_UPDATE_WORKERS_COUNT": {
+      "description": "Number of workers to use. `10000` is the recommended amount see for yourself what works best!",
+      "required": false
+    },
+    "EVAL_CMD_TRIGGER": {
+      "description": "EVAL command trigger",
+      "required": false
+    },
+    "EXEC_CMD_TRIGGER": {
+      "description": "EXEC command trigger",
+      "required": false
     }
   },
   "addons": [],
