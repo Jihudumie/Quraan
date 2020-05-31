@@ -1,8 +1,6 @@
 from pyrogram import Client, Filters
 
-from ffmpegbot import (MWANZO, MSAADA_TXT, JUZUU, TTNN, TNST, SBNN, ,
-JO, JS, JB, JE, JST, JKM,
-JKT, JKN, JKNT, JTS, JKMN)
+from ffmpegbot import (MWANZO, MSAADA_TXT, MOJA, MBILI, TATU, NNE, TANO, SITA, SABA, NANE, TISA, KUMI, KMOJA, KMBILI, KTATU, KNNE, KTANO)
 
 
 @Client.on_message(Filters.command(["start"]))
