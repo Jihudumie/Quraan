@@ -36,7 +36,6 @@
       "description": "You can create a bot using @BotFather",
       "value": "1041455290 -1001243018219"
     },
-
   "addons": [],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
