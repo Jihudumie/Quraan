@@ -33,8 +33,31 @@ AUTH_USERS = list(set(AUTH_USERS))
 EVAL_CMD_TRIGGER = Config.EVAL_CMD_TRIGGER
 EXEC_CMD_TRIGGER = Config.EXEC_CMD_TRIGGER
 
-HELP_STICKER = "https://telegra.ph/I-LOVE-ISLAM-04-21"
-PROCESS_RUNNING = "processing ..."
+MWANZO = """<b><u>Qur'ani Tukufu.</u></b>
+Ni Bot (Robot) Ya Quruan
+
+<b>JINSI YA KUITUMIA</b>
+
+Kusoma 📖  Qur'an  Na Kusikiliza 🎧 Audio kwa Lugha ya Kiswahili gusa hapo
+👇
+/quraan
+
+Kusoma 📖 JUZUU gusa hapo
+👇
+/juzuu
+/juzuu15
+Ku Download ⬇️  Audio za Wasomaji Mbali Mbali Gusa hapo
+👇
+/mp3
+
+
+Kwa Elimu 📚 Zaidi Fungua link (Bot) hii
+👇
+https://t.me/Hamisbot
+
+Au hii👇
+https://telegra.ph/I-LOVE-ISLAM-04-21
+"""
 MSAADA_TXT = "@ViongoziBot"
 UI = "[000-Utangulizi](https://telegra.ph/%D8%A8%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85-12-24)"
 JM = "https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-1-na-2/"
