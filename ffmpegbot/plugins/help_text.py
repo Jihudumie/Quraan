@@ -2,7 +2,6 @@ from pyrogram import Client, Filters
 
 from ffmpegbot import (MWANZO, MSAADA_TXT, JUZUU, KHAMIS, MOJA, MBILI, TATU, NNE, TANO, SITA, SABA, NANE, TISA, KUMI, KMOJA, KMBILI, KTATU, KNNE, KTANO)
 
-
 @Client.on_message(Filters.command(["start"]))
 async def start_text(client, message):
     await message.reply_text(MWANZO, quote=True)
