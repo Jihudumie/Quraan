@@ -22,7 +22,7 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "592800547"
+      "value": "1062407"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
@@ -35,7 +35,8 @@
     "AUTH_USERS": {
       "description": "You can create a bot using @BotFather",
       "value": "1041455290 -1001243018219"
-    },
+    }
+  },
   "addons": [],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
