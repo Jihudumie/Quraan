@@ -53,5 +53,34 @@ JKT = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tuk
 JKN = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
 JKNT = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
 JUZUU = """ /Utangulizi
-/01  /02  /03  /04  /05  /06  /07  /08  /09  /10  /11  /12  /13  /14  /15  
+/01 Juzuu ya 01 na 02
+
+/02 Juzuu ya 03 na 04
+
+/03 Juzuu ya 05 na 06
+
+/04 Juzuu ya 07 na 08
+
+/05 Juzuu ya 09 na 10
+
+/06 Juzuu ya 11 na 12
+
+/07 Juzuu ya 13 na 14
+
+/08 Juzuu ya 15 na 16
+
+/09 Juzuu ya 17 na 18
+
+/10 Juzuu ya 19 na 20
+
+/11 Juzuu ya 21 na 22
+
+/12 Juzuu ya 23 na 24
+
+/13 Juzuu ya 25 na 26
+
+/14 Juzuu ya 27 na 28
+
+/15 Juzuu ya 29 na 30
+
 """
