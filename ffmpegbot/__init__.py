@@ -115,4 +115,4 @@ Juzuu ya 27 na 28.  ➢  /27_28
 
 Juzuu ya 29 na 30. ⇝ /29_30
 """
-KHAMIS = "Khamis Seleleko"
+KHAMIS = "Karibu @Hamisbot"
