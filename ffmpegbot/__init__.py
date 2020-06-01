@@ -38,7 +38,7 @@ MWANZO = """<b><u>Qur'an Tukufu</u></b>
 
 <b>karibu Katika Kitabu cha Allah</b>
 
-<b><u>Mimi Ni Bot Au (Robot) Ya Qur'an Tukufu</u></b>
+<b>Mimi Ni Bot Au (Robot 🤖) Ya Qur'an Tukufu</b>
 
 <b>JINSI YA KUITUMIA</b>
 
@@ -61,7 +61,11 @@ https://t.me/Hamisbot
 <i>Au hii</i>☟
 https://telegra.ph/I-LOVE-ISLAM-04-21
 """
-MSAADA_TXT = "@ViongoziBot"
+MSAADA_TXT = """ili uweze Kupata Musaada Ongea nasi Kupitia Hapa 
+👉 @ViongoziBot 
+Au Hapo👇
+👉 @KhamissBot
+"""
 UTANGULIZI = "[000-Utangulizi](https://telegra.ph/%D8%A8%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85-12-24)"
 MOJA = "[Juzuu ya 01 na 02](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-1-na-2/)"
 MBILI = "[Juzuu ya 03 na 04](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-3-na-4/)"
@@ -79,7 +83,7 @@ KTATU = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-t
 KNNE = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
 KTANO = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
 JUZUU = """
-<b>Maelezo↧.</b> | <i><u>Command↧</u></i>
+<b>Maelezo ↧</b> | <b>Command ↧.</b>
 
 Juzuu ya 01 na 02. ➺  /1_2
 
