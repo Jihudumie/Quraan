@@ -34,11 +34,11 @@ EVAL_CMD_TRIGGER = Config.EVAL_CMD_TRIGGER
 EXEC_CMD_TRIGGER = Config.EXEC_CMD_TRIGGER
 
 HELP_STICKER = "https://telegra.ph/I-LOVE-ISLAM-04-21"
-PROCESS_RUNNING = "processing ..."
 MWANZO = """<b><u>Qur'an Tukufu</u></b>
-\n\n<b>karibu Katika Kitabu cha Allah</b>\n\n
 
-<b><u>Mimi Ni Bot (Robot) Ya Qur'an Tukufu</u></b>
+<b>karibu Katika Kitabu cha Allah</b>
+
+<b><u>Mimi Ni Bot Au (Robot) Ya Qur'an Tukufu</u></b>
 
 <b>JINSI YA KUITUMIA</b>
 
@@ -82,9 +82,9 @@ KTANO = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-t
 JUZUU = """
 <b>Maelezo↧.</b> | <i><u>Command↧</u></i>
 
-Juzuu ya 01 na 02.   /1_2
+Juzuu ya 01 na 02. ➺  /1_2
 
-<b><i>Juzuu ya 03 na 04.</i></b>   /3_4
+<b><i>Juzuu ya 03 na 04.</i></b> ➟  /3_4
 
 Juzuu ya 05 na 06. ➯  /5_6
 
@@ -110,6 +110,6 @@ Juzuu ya 25 na 26. ➢  /25_26
 
 Juzuu ya 27 na 28.  ➢  /27_28
 
-Juzuu ya 29 na 30. ➡   /29_30
+Juzuu ya 29 na 30. ⇝ /29_30
 """
 KHAMIS = "Khamis Seleleko"
