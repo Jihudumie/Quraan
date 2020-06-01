@@ -35,7 +35,32 @@ EXEC_CMD_TRIGGER = Config.EXEC_CMD_TRIGGER
 
 HELP_STICKER = "https://telegra.ph/I-LOVE-ISLAM-04-21"
 PROCESS_RUNNING = "processing ..."
-MWANZO = "karibu Katika Kitabu cha Allah"
+MWANZO = """<b>karibu Katika Kitabu cha Allah\n\n Qur'an Tukufu</b>\n\n
+
+<b><u>Mimi Ni Bot (Robot) Ya Quruan</u></b>
+
+<b>JINSI YA KUITUMIA</b>
+
+<i>Kusoma 📖  Qur'an  Na Kusikiliza 🎧 Audio kwa Lugha ya Kiswahili gusa hapo</i>
+👇
+/quraan
+
+<i>Kusoma 📖 JUZUU gusa hapo</i>
+👇
+/juzuu
+
+<i>Ku Download ⬇️  Audio za Wasomaji Mbali Mbali Gusa hapo</i>
+👇
+/mp3
+
+
+<i>Kwa Elimu 📚 Zaidi Fungua link (Bot) hii</i>
+👇
+https://t.me/Hamisbot
+
+<i>Au hii</i>👇
+https://telegra.ph/I-LOVE-ISLAM-04-21
+"""
 MSAADA_TXT = "@ViongoziBot"
 UTANGULIZI = "[000-Utangulizi](https://telegra.ph/%D8%A8%D8%B3%D9%85-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85-12-24)"
 MOJA = "[Juzuu ya 01 na 02](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-1-na-2/)"
