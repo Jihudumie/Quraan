@@ -70,7 +70,7 @@ async def Kumi_nne(client, message):
 async def kumi_tano(client, message):
     await message.reply_text(KTANO, quote=True)
 
-@Client.on_message(Filters.command(["khamis", "about"]))
+@Client.on_message(Filters.command(["khamis", "hamis"]))
 async def khamys_s(client, message):
     await message.reply_text(KHAMIS, quote=True)
 
@@ -78,3 +78,6 @@ async def khamys_s(client, message):
 async def juzuu(client, message):
     await message.reply_text(JUZUU, quote=True)
 
+@Client.on_message(Filters.command(["jihaad", "jihad"]))
+async def juhu_di(client, message):
+    await message.reply_text(JIHA, quote=True)
