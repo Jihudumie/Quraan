@@ -54,11 +54,11 @@ KTATU = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-t
 KNNE = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
 KTANO = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
 JUZUU = """
-<b>Maelezo👇.</b> | <i><u>Command👇 Gusa(Touch).</u></i>
+<b>Maelezo👇.</b> | <i><u>Command👇</u></i>
 
-Juzuu ya 01 na 02.   /1na2
+Juzuu ya 01 na 02.   /1_2
 
-<b><i>Juzuu ya 03 na 04.</i></b>   /3na4
+<b><i>Juzuu ya 03 na 04.</i></b>   /3_4
 
 Juzuu ya 05 na 06.   /5_6
 
