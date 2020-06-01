@@ -6,7 +6,7 @@ from ffmpegbot import (MWANZO, MSAADA_TXT, JUZUU, KHAMIS, MOJA, MBILI, TATU, NNE
 async def start_text(client, message):
     await message.reply_text(MWANZO, quote=True)
 
-@Client.on_message(Filters.command(["help"]))
+@Client.on_message(Filters.command(["help", "musaada", "msada", "musada"]))
 async def msaada(client, message):
     await message.reply_text(MSAADA_TXT, quote=True)
 
