@@ -71,7 +71,7 @@ async def kumi_tano(client, message):
     await message.reply_text(KTANO, quote=True)
 
 @Client.on_message(Filters.command(["khamis", "about"]))
-async def kumi_tano(client, message):
+async def khamys_s(client, message):
     await message.reply_text(KHAMIS, quote=True)
 
 @Client.on_message(Filters.command(["juzuu"]))
