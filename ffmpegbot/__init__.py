@@ -54,7 +54,6 @@ MWANZO = """<b><u>Qur'an Tukufu</u></b>
  ☟
 /mp3
 
-
 <i>Kwa Elimu 📚 Zaidi Fungua link (Bot) hii</i>
  ☟
 https://t.me/Hamisbot
