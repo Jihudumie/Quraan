@@ -54,34 +54,34 @@ KTATU = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-t
 KNNE = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
 KTANO = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
 JUZUU = """
-/01 Juzuu ya 01 na 02
+Juzuu ya 01 na 02.   /1na2
 
-/02 Juzuu ya 03 na 04
+<b><i>Juzuu ya 03 na 04.</i></b>   /3na4
 
-/03 Juzuu ya 05 na 06
+Juzuu ya 05 na 06.   /5na6
 
-/04 Juzuu ya 07 na 08
+Juzuu ya 07 na 08.    /7na8
 
-/05 Juzuu ya 09 na 10
+Juzuu ya 09 na 10.    /9na10
 
-/06 Juzuu ya 11 na 12
+Juzuu ya 11 na 12.     /11na12
 
-/07 Juzuu ya 13 na 14
+Juzuu ya 13 na 14.    /13na14
 
-/08 Juzuu ya 15 na 16
+Juzuu ya 15 na 16.    /15na16
 
-/09 Juzuu ya 17 na 18
+Juzuu ya 17 na 18.     /17na18
 
-/10 Juzuu ya 19 na 20
+Juzuu ya 19 na 20.    /19na20
 
-/11 Juzuu ya 21 na 22
+Juzuu ya 21 na 22.    /21n122
 
-/12 Juzuu ya 23 na 24
+Juzuu ya 23 na 24.   /23na24
 
-/13 Juzuu ya 25 na 26
+Juzuu ya 25 na 26.   /25na26
 
-/14 Juzuu ya 27 na 28
+Juzuu ya 27 na 28.    /27na28
 
-/15 Juzuu ya 29 na 30
+Juzuu ya 29 na 30.    /29na30
 """
 KHAMIS = "Khamis Seleleko"
