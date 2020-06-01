@@ -35,30 +35,31 @@ EXEC_CMD_TRIGGER = Config.EXEC_CMD_TRIGGER
 
 HELP_STICKER = "https://telegra.ph/I-LOVE-ISLAM-04-21"
 PROCESS_RUNNING = "processing ..."
-MWANZO = """<b>karibu Katika Kitabu cha Allah\n\n Qur'an Tukufu</b>\n\n
+MWANZO = """<b><u>Qur'an Tukufu</u></b>
+\n\n<b>karibu Katika Kitabu cha Allah</b>\n\n
 
-<b><u>Mimi Ni Bot (Robot) Ya Quruan</u></b>
+<b><u>Mimi Ni Bot (Robot) Ya Qur'an Tukufu</u></b>
 
 <b>JINSI YA KUITUMIA</b>
 
 <i>Kusoma 📖  Qur'an  Na Kusikiliza 🎧 Audio kwa Lugha ya Kiswahili gusa hapo</i>
-👇
+ ☟
 /quraan
 
 <i>Kusoma 📖 JUZUU gusa hapo</i>
-👇
+ ☟
 /juzuu
 
-<i>Ku Download ⬇️  Audio za Wasomaji Mbali Mbali Gusa hapo</i>
-👇
+<i>Ku Download  Audio za Wasomaji Mbali Mbali Gusa hapo</i>
+ ☟
 /mp3
 
 
 <i>Kwa Elimu 📚 Zaidi Fungua link (Bot) hii</i>
-👇
+ ☟
 https://t.me/Hamisbot
 
-<i>Au hii</i>👇
+<i>Au hii</i>☟
 https://telegra.ph/I-LOVE-ISLAM-04-21
 """
 MSAADA_TXT = "@ViongoziBot"
@@ -79,36 +80,36 @@ KTATU = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-t
 KNNE = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
 KTANO = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
 JUZUU = """
-<b>Maelezo👇.</b> | <i><u>Command👇</u></i>
+<b>Maelezo↧.</b> | <i><u>Command↧</u></i>
 
 Juzuu ya 01 na 02.   /1_2
 
 <b><i>Juzuu ya 03 na 04.</i></b>   /3_4
 
-Juzuu ya 05 na 06.   /5_6
+Juzuu ya 05 na 06. ➯  /5_6
 
-Juzuu ya 07 na 08.    /7_8
+Juzuu ya 07 na 08.  ➱  /7_8
 
-Juzuu ya 09 na 10.    /9_10
+Juzuu ya 09 na 10.  ➮  /9_10
 
-Juzuu ya 11 na 12.     /11_12
+Juzuu ya 11 na 12.  ➭   /11_12
 
-Juzuu ya 13 na 14.    /13_14
+Juzuu ya 13 na 14. ➬  /13_14
 
-Juzuu ya 15 na 16.    /15_16
+Juzuu ya 15 na 16.  ➫  /15_16
 
-Juzuu ya 17 na 18.     /17_18
+Juzuu ya 17 na 18.  ➪  /17_18
 
-Juzuu ya 19 na 20.    /19_20
+Juzuu ya 19 na 20.  ➤  /19_20
 
-Juzuu ya 21 na 22.    /21_22
+Juzuu ya 21 na 22.  ➠  /21_22
 
-Juzuu ya 23 na 24.   /23_24
+Juzuu ya 23 na 24. ➣ /23_24
 
-Juzuu ya 25 na 26.   /25_26
+Juzuu ya 25 na 26. ➢  /25_26
 
-Juzuu ya 27 na 28.    /27_28
+Juzuu ya 27 na 28.  ➢  /27_28
 
-Juzuu ya 29 na 30.    /29_30
+Juzuu ya 29 na 30. ➡   /29_30
 """
 KHAMIS = "Khamis Seleleko"
