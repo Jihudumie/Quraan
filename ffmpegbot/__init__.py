@@ -83,7 +83,7 @@ KTATU = "[Juzuu ya 25 na 26](https://alsidqblog.wordpress.com/tafsiri-ya-quran-t
 KNNE = "[Juzuu ya 27 na 28](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-27-na-28/)"
 KTANO = "[Juzuu ya 29 na 30](https://alsidqblog.wordpress.com/tafsiri-ya-quran-tukufu/juzuu-ya-29-na-30/)"
 JUZUU = """
-<b>Maelezo ↧</b> | <b>Command ↧.</b>
+<b>Maelezo ↧</b> | <b>Command   ↧.</b>
 
 Juzuu ya 01 na 02. ➺  /1_2
 
@@ -115,5 +115,5 @@ Juzuu ya 27 na 28.  ➢  /27_28
 
 Juzuu ya 29 na 30. ⇝ /29_30
 """
-KHAMIS = "Karibu @Hamisbot"
+KHAMIS = "Karibu👉 @Hamisbot"
 JIHA = "👉 @JihaadBot"
