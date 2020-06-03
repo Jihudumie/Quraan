@@ -9,6 +9,7 @@ async def start_text(client, message):
 @Client.on_message(Filters.command(["help", "musaada", "msada", "musada", "msaada"]))
 async def msaada(client, message):
     await message.reply_text(MSAADA_TXT, quote=True)
+chat = update.effective_chat # type: Optional[Chat]
 
 @Client.on_message(Filters.command(["1_2"]))
 async def moja(client, message):
