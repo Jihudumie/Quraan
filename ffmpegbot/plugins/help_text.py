@@ -14,7 +14,7 @@ async def msaada(client, message):
 async def moja(client, message):
     await message.reply_text(MOJA, quote=True)
 
-@Client.on_message(Filters.command(["3_4"]))
+@Client.on_message(Filters.command(["buluwgh"]))
 async def mbili(client, message):
     await message.reply_text(MBILI, quote=True)
 
